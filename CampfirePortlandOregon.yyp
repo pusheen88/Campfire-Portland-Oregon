@@ -23,6 +23,7 @@
   "resources":[
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"Splayer","path":"sprites/Splayer/Splayer.yy",},},
   ],
   "resourceType":"GMProject",
