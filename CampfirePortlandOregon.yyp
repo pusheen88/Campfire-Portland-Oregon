@@ -27,6 +27,7 @@
   "name":"CampfirePortlandOregon",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"bossesfireball","path":"objects/bossesfireball/bossesfireball.yy",},},
     {"id":{"name":"MANSTHEBOSS","path":"objects/MANSTHEBOSS/MANSTHEBOSS.yy",},},
     {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
     {"id":{"name":"oDbox","path":"objects/oDbox/oDbox.yy",},},
@@ -49,6 +50,7 @@
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},},
     {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},},
+    {"id":{"name":"sbossesfireball","path":"sprites/sbossesfireball/sbossesfireball.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
     {"id":{"name":"sNPChostile","path":"sprites/sNPChostile/sNPChostile.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
