@@ -19,12 +19,18 @@
   },
   "name":"CampfirePortlandOregon",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"id":{"name":"Win","path":"rooms/Win/Win.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"roomId":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
+    {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
