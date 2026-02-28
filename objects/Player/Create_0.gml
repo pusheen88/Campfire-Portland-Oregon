@@ -6,7 +6,6 @@ global.jump_force = 10;
 global.Jump_multiply = 2;
 global.jump_multiply_track = 0;
 
-global.jump_key_prev = false;
 global.yvel = 0;
 global.yvel_max = 15;
 
