@@ -6,7 +6,7 @@ draw_rectangle(0, 0, room_width, room_height, false);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
-draw_text(room_width / 2, room_height / 2 - 60, "Under Preasure"); // replace with your game title
+draw_text_transformed(room_width / 2, room_height / 2 - 60, "Under Preasure", 6, 6, 0);
 
 // Draw prompt
-draw_text(room_width / 2, room_height / 2 + 20, "Press ENTER or SPACE to Start");
+draw_text_transformed(room_width / 2, room_height / 2 + 50, "Press ENTER or SPACE to Start", 2, 2, 0);

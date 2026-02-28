@@ -2,6 +2,11 @@ var xvel = 0;
 
 var oy = y;
 
+// Return to start menu on ESC
+if (keyboard_check_pressed(vk_escape)) {
+    room_goto(Title); // replace with your actual start menu room name
+}
+
 // Manually detect "just pressed" for jump key
 var jump_key_down = AnyKeyPressed(global.key_move_up);
 var jump_just_pressed = jump_key_down && !global.jump_key_prev;
