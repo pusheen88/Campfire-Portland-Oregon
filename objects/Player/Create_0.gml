@@ -10,6 +10,6 @@ global.jump_key_prev = false;
 global.yvel = 0;
 global.yvel_max = 15;
 
-global.apex_threshold = 2;   // yvel range considered "near apex"
-global.apex_grav_mult = 0.2; // gravity multiplier at apex (smaller = floatier)
-global.fall_grav_mult = 2.0; // gravity multiplier when falling (bigger = faster fall)
+global.apex_threshold = 2;  
+global.apex_grav_mult = 0.2;
+global.fall_grav_mult = 2.0;
