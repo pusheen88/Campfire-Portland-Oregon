@@ -50,6 +50,7 @@
     {"id":{"name":"Controls","path":"scripts/Controls/Controls.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
     {"id":{"name":"mus_Ambient","path":"sounds/mus_Ambient/mus_Ambient.yy",},},
+    {"id":{"name":"mus_Title","path":"sounds/mus_Title/mus_Title.yy",},},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"Idle","path":"sprites/Idle/Idle.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
