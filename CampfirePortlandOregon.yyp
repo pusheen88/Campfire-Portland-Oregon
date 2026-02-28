@@ -21,10 +21,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1003",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"CampfirePortlandOregon",
   "resources":[
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},},
     {"id":{"name":"oDbox","path":"objects/oDbox/oDbox.yy",},},
     {"id":{"name":"oNPC","path":"objects/oNPC/oNPC.yy",},},
