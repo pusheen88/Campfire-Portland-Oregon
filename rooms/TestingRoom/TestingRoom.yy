@@ -3146,7 +3146,6 @@
     {"name":"inst_2D57DD49","path":"rooms/TestingRoom/TestingRoom.yy",},
     {"name":"inst_6F17DB7F","path":"rooms/TestingRoom/TestingRoom.yy",},
     {"name":"inst_649177BC","path":"rooms/TestingRoom/TestingRoom.yy",},
-    {"name":"inst_3CF3D94D","path":"rooms/TestingRoom/TestingRoom.yy",},
     {"name":"inst_185E52A7","path":"rooms/TestingRoom/TestingRoom.yy",},
     {"name":"inst_126DD042","path":"rooms/TestingRoom/TestingRoom.yy",},
     {"name":"inst_5EBAE567","path":"rooms/TestingRoom/TestingRoom.yy",},
