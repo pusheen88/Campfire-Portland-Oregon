@@ -1,18 +1,27 @@
-var xvel = 0;
+// coloring
 
+// var max_dist = point_distance(0, 0, room_width / 2, room_height / 2);
+
+// for (var i = 0; i < instance_number(Stone); ++i) {
+//     var inst = instance_find(Stone, i);
+// 	var dist = point_distance(inst.x, inst.y, x, y);
+// 	var factor = clamp(1 - dist / max_dist, 0, 1);
+	
+// 	inst.image_alpha = factor;
+// }
+
+// movement
+
+var xvel = 0;
 var oy = y;
 
-// Return to start menu on ESC
 if (keyboard_check_pressed(vk_escape)) {
-    room_goto(Title); // replace with your actual start menu room name
+    room_goto(Title);
 }
 
-// Manually detect "just pressed" for jump key
 var jump_key_down = AnyKeyPressed(global.key_move_up);
-var jump_just_pressed = jump_key_down && !global.jump_key_prev;
-global.jump_key_prev = jump_key_down;
+var jump_just_pressed = jump_key_down;
 
-// Jump logic: allow jump if on ground OR if double jump is available
 if (jump_just_pressed) {
     if (global.on_ground) {
         global.yvel = -global.jump_force;
@@ -23,28 +32,30 @@ if (jump_just_pressed) {
     }
 }
 
-xvel -= AnyKeyPressed(global.key_move_left) ? global.move_speed : 0;
-xvel += AnyKeyPressed(global.key_move_right) ? global.move_speed : 0;
+if (AnyKeyPressed(global.key_move_right)) {
+    xvel += global.move_speed;
+    image_xscale = -1;
+} else if (AnyKeyPressed(global.key_move_left)) {
+    xvel -= global.move_speed;
+    image_xscale = 1;
+}
 
-// Apply gravity with apex and fall scaling
 if (!global.on_ground) {
     var grav_mult;
 
     if (abs(global.yvel) < global.apex_threshold) {
-        // Near the apex — slow gravity for hang time
         grav_mult = global.apex_grav_mult;
     } else if (global.yvel > 0) {
-        // Falling down — stronger gravity for fast fall
         grav_mult = global.fall_grav_mult;
     } else {
-        // Still rising — normal gravity
         grav_mult = 1.0;
     }
 
     global.yvel += global.grav_speed * grav_mult;
+} else {
+    global.yvel += global.grav_speed * global.fall_grav_mult;
 }
 
-// Cap fall speed so player always comes down
 global.yvel = clamp(global.yvel, -global.jump_force, global.yvel_max);
 
 move_and_collide(xvel, global.yvel, [Solid]);
@@ -56,7 +67,6 @@ if (y == oy) {
     global.on_ground = false;
 }
 
-// Reset jump track when landing
 if (global.on_ground) {
     global.jump_multiply_track = 0;
 }
