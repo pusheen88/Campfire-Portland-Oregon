@@ -1,6 +1,6 @@
-move_speed = 5;
-grav_speed = 6;
-on_ground = false;
+global.move_speed = 5;
+global.grav_speed = 6;
+global.on_ground = false;
 
-jump_duration = 150;
-jump_time = -jump_duration;
+global.jump_duration = 150;
+global.jump_time = -global.jump_duration;
