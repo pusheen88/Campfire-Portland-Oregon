@@ -45,6 +45,7 @@
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
     {"id":{"name":"sNPChostile","path":"sprites/sNPChostile/sNPChostile.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"Splayer2","path":"sprites/Splayer2/Splayer2.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
     {"id":{"name":"spr_Stone","path":"sprites/spr_Stone/spr_Stone.yy",},},
     {"id":{"name":"sTreasure","path":"sprites/sTreasure/sTreasure.yy",},},
