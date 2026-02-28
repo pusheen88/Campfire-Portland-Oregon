@@ -9,17 +9,20 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.1400.4.1003",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"CampfirePortlandOregon",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Splayer","path":"sprites/Splayer/Splayer.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
