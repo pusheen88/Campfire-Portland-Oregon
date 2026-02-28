@@ -1,5 +1,4 @@
 var xvel = 0;
-
 var oy = y;
 
 if (keyboard_check_pressed(vk_escape)) {
@@ -7,8 +6,7 @@ if (keyboard_check_pressed(vk_escape)) {
 }
 
 var jump_key_down = AnyKeyPressed(global.key_move_up);
-var jump_just_pressed = jump_key_down && !global.jump_key_prev;
-global.jump_key_prev = jump_key_down;
+var jump_just_pressed = jump_key_down;
 
 if (jump_just_pressed) {
     if (global.on_ground) {
@@ -40,6 +38,8 @@ if (!global.on_ground) {
     }
 
     global.yvel += global.grav_speed * grav_mult;
+} else {
+    global.yvel += global.grav_speed * global.fall_grav_mult;
 }
 
 global.yvel = clamp(global.yvel, -global.jump_force, global.yvel_max);
