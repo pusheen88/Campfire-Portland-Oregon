@@ -1,7 +1,6 @@
 var xvel = 0;
 var yvel = 0;
 
-var ox = x;
 var oy = y;
 
 if (on_ground && AnyKeyPressed(global.key_move_up)) {
@@ -19,7 +18,7 @@ if (xvel != 0 && yvel != 0) {
     yvel = sqrt(move_speed);
 }
 
-if (current_time < jump_end && AnyKeyPressed(global.key_move_up)) {
+if (current_time < jump_end) {
     yvel -= move_speed;
 } else {
     if (!on_ground) yvel += grav_speed;
@@ -27,7 +26,7 @@ if (current_time < jump_end && AnyKeyPressed(global.key_move_up)) {
 
 move_and_collide(xvel, yvel, [Solid]);
 
-if (x == ox && y == oy) {
+if (y == oy) {
     on_ground = true;
 } else {
     on_ground = false;
