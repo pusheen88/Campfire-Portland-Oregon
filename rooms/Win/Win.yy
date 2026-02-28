@@ -13,8 +13,8 @@
   ],
   "name":"Win",
   "parent":{
-    "name":"CampfirePortlandOregon",
-    "path":"CampfirePortlandOregon.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sNPChostile",
+    "path":"sprites/sNPChostile/sNPChostile.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
