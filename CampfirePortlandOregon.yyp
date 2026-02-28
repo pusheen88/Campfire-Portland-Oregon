@@ -42,6 +42,7 @@
     {"id":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"id":{"name":"Controls","path":"scripts/Controls/Controls.yy",},},
     {"id":{"name":"Globals","path":"scripts/Globals/Globals.yy",},},
+    {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
     {"id":{"name":"sNPChostile","path":"sprites/sNPChostile/sNPChostile.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
