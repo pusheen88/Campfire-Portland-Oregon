@@ -13,3 +13,6 @@ global.yvel_max = 15;
 global.apex_threshold = 2;  
 global.apex_grav_mult = 0.2;
 global.fall_grav_mult = 2.0;
+x_speed = 1; 
+y_speed = 1; 
+walk_speed = 1; 
