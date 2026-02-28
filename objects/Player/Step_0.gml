@@ -1,3 +1,17 @@
+// coloring
+
+// var max_dist = point_distance(0, 0, room_width / 2, room_height / 2);
+
+// for (var i = 0; i < instance_number(Stone); ++i) {
+//     var inst = instance_find(Stone, i);
+// 	var dist = point_distance(inst.x, inst.y, x, y);
+// 	var factor = clamp(1 - dist / max_dist, 0, 1);
+	
+// 	inst.image_alpha = factor;
+// }
+
+// movement
+
 var xvel = 0;
 var oy = y;
 
